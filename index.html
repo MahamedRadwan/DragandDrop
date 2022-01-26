@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Drag and Drop Task</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Dashtang</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item ">
+            <div class="d-flex justify-content-between align-items-center acc">
+              <img src="assets/Images/Jimmy.jpeg" alt="MohamedGamal" class="icon">
+              <p>Mohamed Gamal</p>
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="editbar">
+    <div class="container-fluid d-flex align-items-center">
+      <p>Mohamed's Analytics Dashboard </p>
+      <i class="fas fa-pen " id="edit-btn"></i>
+    </div>
+
+  </div>
+  <section id="dashboard" class="edit-content overflow-hidden bg-grey">
+    <div class="row">
+      <div class="sidenav col-md-2 text-center bg-light ">
+        <div>
+          <button class="btn "> <i class="fas fa-plus"></i> New Widget </button>
+        </div>
+        <div class="items">
+          <div class="item">
+           <div class="row">
+            <div class="col-md-12">
+              <div id="chart"></div>
+            </div>
+           </div>
+          </div>
+ 
+        </div>
+      </div>
+
+      <div class="col-md-5 mt-4 ">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bSlot brdr" ></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="sSlot brdr"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mt-4 ">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bSlot brdr"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="mSlot brdr"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="mSlot brdr"></div>
+          </div>
+        </div>
+        <div class="row mt-5 btns text-end">
+          <div class="col-md-12">
+            <button class="btn btn-light" id="reset"> <i class="fa-xs fas fa-chevron-left"></i>Back</button>
+            <button class="btn btn-primary">Finish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="Js/jquery-3.6.0.min.js"></script>
+  <script src="Js/popper.min.js"></script>
+  <script src="Js/bootstrap.min.js"></script>
+  <script src="Js/index.js"></script>
+</body>
+
+</html>
